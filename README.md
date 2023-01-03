@@ -13,7 +13,9 @@ para que podamos ver la salida del programa.
 - absolute_path = ['path del directorio de salida host']. En el caso en el que no exista el directorio que queremos linkear lo crea.
 - Es importante mantener la estructura del siguiente comando. En particular el path tras ':' no debera ser alterado ya que es el directorio interno del contenedor.
 >docker run -i -v absolute_path:/out 'nombre con el que hayas llamado a la imagen'.
-## Directorio Out
-Será necesario tener un directorio vacio llamado out en el directorio de trabajo.
+## Directorio 'out' y salida del programa 
+Será necesario tener un directorio vacio llamado out en el directorio de trabajo. Se proporcionara un pdf con las estadisticas mas relevantes del equipo al igual que un fichero html por comodidad.
+## Busqueda de equipos.
+Es importante remarcar que la busqueda de equipos debera de ser por nombre completo o a lo sumo por la ultima palabra del nombre (nombre por el que usualmente se conocen a los equipos) debido a que no se ha implementado un motor de busqueda.
 
 
