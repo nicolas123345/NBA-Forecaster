@@ -14,6 +14,6 @@ para que podamos ver la salida del programa.
 - Es importante mantener la estructura del siguiente comando. En particular el path tras ':' no debera ser alterado ya que es el directorio interno del contenedor.
 >docker run -i -v absolute_path:/out 'nombre con el que hayas llamado a la imagen'.
 ## Directorio Out
-Será necesario tener una directorio vacio llamado out en el directorio de trabajo.
+Será necesario tener un directorio vacio llamado out en el directorio de trabajo.
 
 
